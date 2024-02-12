@@ -1,0 +1,212 @@
+body {
+  font-family: "Be Vietnam Pro", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700 !important;
+}
+
+.head .btn,
+.stats .btn,
+.difference .btn,
+.carousel .btn,
+.footer .btn {
+  background: hsl(12, 88%, 59%);
+  border-radius: 25px;
+  padding: 8px 35px;
+}
+
+.head .btn:hover,
+.difference .btn:hover,
+.carousel .btn:hover,
+.footer .btn:hover {
+  background: hsl(12, 71%, 66%);
+}
+
+.stats .btn:hover {
+  background: hsl(12, 71%, 66%);
+}
+
+.head a {
+  color: hsl(228, 39%, 23%);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.head a:hover {
+  color: hsl(12, 71%, 66%);
+}
+
+.general-spacing {
+  /* margin: 0px 10px 10px 10px; */
+  padding: 40px 10px;
+}
+
+.general-spacing2{
+  padding: 40px 10px 40px 10px;
+}
+
+.stats .container .row .left-stats {
+  padding-right: 100px;
+}
+
+.left-stats h1 {
+  font-size: 60px;
+}
+
+.difference p,
+.carousel p {
+  color: rgb(133, 136, 138);
+}
+
+.difference .btn {
+  pointer-events: none;
+}
+
+/* slider */
+
+.slider-content {
+  width: 500px;
+  padding: 30px;
+  gap: 18px;
+  background-color: rgb(238, 235, 230);
+  margin: 20px;
+  position: relative;
+  transform: translate3d(-560px, 50px, 0px);
+}
+
+.slider-content img {
+  position: absolute;
+  left: 35%;
+  top: -70px;
+  overflow: auto;
+}
+
+.slick-slide {
+  height: 340px !important;
+}
+
+.slider-cont {
+  height: 400px;
+}
+
+.carousel p {
+  text-align: center;
+}
+
+.cta .btn {
+  background: hsl(0, 0%, 100%);
+  color: #f3603c;
+  border-radius: 25px;
+  padding: 8px 35px;
+}
+
+.cta .btn:hover {
+  color: hsl(11, 55%, 71%);
+  background: hsl(0, 0%, 100%);
+}
+
+.txt-color-white {
+  color: white;
+}
+
+.footer {
+  background-color: #1e1e26;
+}
+
+.footer-spacing {
+  padding: 70px 20px;
+}
+
+.footer li {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.text-inp {
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.footer-mail {
+  gap: 10px;
+  color: rgb(184, 175, 175);
+}
+
+.social-spacing {
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+.social-spacing img {
+  padding: 3px;
+}
+
+.bg-shape {
+  position: relative;
+  background-image: url("resources/images/bg-tablet-pattern.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: scroll;
+  background-position: 905px -180px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-shadow {
+  box-shadow: 1px 4px 20px 5px #f3603c;
+}
+
+form {
+  display: inline-block;
+  gap: 10px;
+}
+
+.footer input {
+  margin: 1px 30px;
+}
+
+.footer a:hover {
+  color: hsl(12, 71%, 66%);
+}
+
+.bg-shape2 {
+  position: relative;
+  background-image: url("resources/images/bg-tablet-pattern.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: scroll;
+  background-position: -390px 270px;
+}
+
+.cta {
+  position: relative;
+  isolation: isolate;
+  background-color: #f3603c;
+}
+
+.cta::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background-image: url("resources/images/bg-tablet-pattern.svg"),
+    url("resources/images/bg-tablet-pattern.svg");
+  background-position: -36px -15px, 1117px -640px;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+}
+
+.head .bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: transparent !important;
+}
